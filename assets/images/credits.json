@@ -1,0 +1,262 @@
+[
+ {
+  "id": "cover-manghua",
+  "title": "Autumn Miscanthus (15833319956).jpg",
+  "artist": "Artemas Liu from Taipei, Taiwan",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Autumn_Miscanthus_(15833319956).jpg",
+  "credit_line": "摄影：Artemas Liu from Taipei, Taiwan / CC BY 2.0 / Wikimedia Commons",
+  "width": 2400,
+  "height": 1350,
+  "source_resolution": "1920x1280",
+  "crop_box_px": [
+   0,
+   84,
+   1920,
+   1164
+  ],
+  "file_webp_bytes": 614992,
+  "file_jpg_bytes": 809362
+ },
+ {
+  "id": "taiwan-silver-grass",
+  "title": "Miscanthus 芒花 - panoramio.jpg",
+  "artist": "lienyuan lee",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Miscanthus_%E8%8A%92%E8%8A%B1_-_panoramio.jpg",
+  "credit_line": "摄影：lienyuan lee / CC BY 3.0 / Wikimedia Commons",
+  "width": 2400,
+  "height": 1350,
+  "source_resolution": "1920x1440",
+  "crop_box_px": [
+   0,
+   180,
+   1920,
+   1260
+  ],
+  "file_webp_bytes": 997242,
+  "file_jpg_bytes": 1121433
+ },
+ {
+  "id": "taiwan-bald-cypress",
+  "title": "Taxodium distichum (3) Meise Nationale Plantentuin.jpg",
+  "artist": "Homoarborea",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Taxodium_distichum_(3)_Meise_Nationale_Plantentuin.jpg",
+  "credit_line": "摄影：Homoarborea / CC0 / Wikimedia Commons",
+  "width": 1600,
+  "height": 2000,
+  "source_resolution": "1920x1275",
+  "crop_box_px": [
+   450,
+   0,
+   1470,
+   1275
+  ],
+  "file_webp_bytes": 902870,
+  "file_jpg_bytes": 1042126
+ },
+ {
+  "id": "taiwan-tea-mist",
+  "title": "聖峰茶園 Shengfeng Tea Plantation - panoramio.jpg",
+  "artist": "lienyuan lee",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "source_url": "https://commons.wikimedia.org/wiki/File:%E8%81%96%E5%B3%B0%E8%8C%B6%E5%9C%92_Shengfeng_Tea_Plantation_-_panoramio.jpg",
+  "credit_line": "摄影：lienyuan lee / CC BY 3.0 / Wikimedia Commons",
+  "width": 2400,
+  "height": 1350,
+  "source_resolution": "1920x1280",
+  "crop_box_px": [
+   0,
+   110,
+   1920,
+   1190
+  ],
+  "file_webp_bytes": 1072872,
+  "file_jpg_bytes": 1148727
+ },
+ {
+  "id": "taiwan-chapter",
+  "title": "Qingshui Cliff 清水斷崖 - panoramio (3).jpg",
+  "artist": "lienyuan lee",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Qingshui_Cliff_%E6%B8%85%E6%B0%B4%E6%96%B7%E5%B4%96_-_panoramio_(3).jpg",
+  "credit_line": "摄影：lienyuan lee / CC BY 3.0 / Wikimedia Commons",
+  "width": 2400,
+  "height": 1350,
+  "source_resolution": "1920x1280",
+  "crop_box_px": [
+   0,
+   100,
+   1920,
+   1180
+  ],
+  "file_webp_bytes": 787038,
+  "file_jpg_bytes": 920117
+ },
+ {
+  "id": "heilongjiang-birch",
+  "title": "Nagano's White birch forest (53108290236).jpg",
+  "artist": "Raita Futo from Tokyo, Japan",
+  "license": "CC BY 2.0",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Nagano%27s_White_birch_forest_(53108290236).jpg",
+  "credit_line": "摄影：Raita Futo from Tokyo, Japan / CC BY 2.0 / Wikimedia Commons",
+  "width": 2400,
+  "height": 1350,
+  "source_resolution": "1920x1280",
+  "crop_box_px": [
+   0,
+   100,
+   1920,
+   1180
+  ],
+  "file_webp_bytes": 797052,
+  "file_jpg_bytes": 957544
+ },
+ {
+  "id": "heilongjiang-chapter",
+  "title": "A River in Greater Khingan Forest.jpg",
+  "artist": "Charlie fong",
+  "license": "CC BY-SA 4.0",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:A_River_in_Greater_Khingan_Forest.jpg",
+  "credit_line": "摄影：Charlie fong / CC BY-SA 4.0 / Wikimedia Commons",
+  "width": 2400,
+  "height": 1350,
+  "source_resolution": "1920x1080",
+  "crop_box_px": [
+   0,
+   0,
+   1920,
+   1080
+  ],
+  "file_webp_bytes": 514550,
+  "file_jpg_bytes": 686136
+ },
+ {
+  "id": "heilongjiang-railway",
+  "title": "HXD3D-1886 hauls Z158 on Dehui Songhua River Bridge 20251011.jpg",
+  "artist": "高坂千一久",
+  "license": "CC BY 4.0",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:HXD3D-1886_hauls_Z158_on_Dehui_Songhua_River_Bridge_20251011.jpg",
+  "credit_line": "摄影：高坂千一久 / CC BY 4.0 / Wikimedia Commons",
+  "width": 1600,
+  "height": 2000,
+  "source_resolution": "1920x1080",
+  "crop_box_px": [
+   528,
+   0,
+   1392,
+   1080
+  ],
+  "file_webp_bytes": 637846,
+  "file_jpg_bytes": 785745
+ },
+ {
+  "id": "heilongjiang-late-autumn",
+  "title": "Gegengol in Greater Khingan forest2017.jpg",
+  "artist": "Charlie fong",
+  "license": "CC BY-SA 4.0",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Gegengol_in_Greater_Khingan_forest2017.jpg",
+  "credit_line": "摄影：Charlie fong / CC BY-SA 4.0 / Wikimedia Commons",
+  "width": 2400,
+  "height": 1350,
+  "source_resolution": "1920x1280",
+  "crop_box_px": [
+   0,
+   100,
+   1920,
+   1180
+  ],
+  "file_webp_bytes": 583428,
+  "file_jpg_bytes": 765713
+ },
+ {
+  "id": "heilongjiang-first-snow",
+  "title": "First snow - Flickr - Stiller Beobachter.jpg",
+  "artist": "Stiller Beobachter from Ansbach, Germany",
+  "license": "CC BY 2.0",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:First_snow_-_Flickr_-_Stiller_Beobachter.jpg",
+  "credit_line": "摄影：Stiller Beobachter from Ansbach, Germany / CC BY 2.0 / Wikimedia Commons",
+  "width": 2400,
+  "height": 1350,
+  "source_resolution": "1920x1440",
+  "crop_box_px": [
+   0,
+   180,
+   1920,
+   1260
+  ],
+  "file_webp_bytes": 997024,
+  "file_jpg_bytes": 1133984
+ },
+ {
+  "id": "xian-chapter",
+  "title": "西安城墙5.JPG",
+  "artist": "Fyw321",
+  "license": "CC BY-SA 3.0",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E5%AE%89%E5%9F%8E%E5%A2%995.JPG",
+  "credit_line": "摄影：Fyw321 / CC BY-SA 3.0 / Wikimedia Commons",
+  "width": 2400,
+  "height": 1350,
+  "source_resolution": "1920x1440",
+  "crop_box_px": [
+   0,
+   180,
+   1920,
+   1260
+  ],
+  "file_webp_bytes": 451776,
+  "file_jpg_bytes": 666462
+ },
+ {
+  "id": "xian-ginkgo",
+  "title": "Ginkgo trees (15649028518).jpg",
+  "artist": "白士 李",
+  "license": "CC BY 2.0",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Ginkgo_trees_(15649028518).jpg",
+  "credit_line": "摄影：白士 李 / CC BY 2.0 / Wikimedia Commons",
+  "width": 2400,
+  "height": 1350,
+  "source_resolution": "1920x1281",
+  "crop_box_px": [
+   0,
+   100,
+   1920,
+   1180
+  ],
+  "file_webp_bytes": 1628810,
+  "file_jpg_bytes": 1674043
+ },
+ {
+  "id": "xian-persimmon",
+  "title": "カキノキ(柿の木)(Diospyros kaki Thunb.)-実 (5845080334).jpg",
+  "artist": "yamatsu",
+  "license": "CC0",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:%E3%82%AB%E3%82%AD%E3%83%8E%E3%82%AD(%E6%9F%BF%E3%81%AE%E6%9C%A8)(Diospyros_kaki_Thunb.)-%E5%AE%9F_(5845080334).jpg",
+  "credit_line": "摄影：yamatsu / CC0 / Wikimedia Commons",
+  "width": 1600,
+  "height": 2000,
+  "source_resolution": "1920x1440",
+  "crop_box_px": [
+   384,
+   0,
+   1536,
+   1440
+  ],
+  "file_webp_bytes": 316592,
+  "file_jpg_bytes": 560963
+ }
+]

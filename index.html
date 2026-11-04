@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0c0b09">
+<meta name="description" content="秋天的旅行——同一个秋天，三种不同的风景。黑龙江、西安、台湾，一场关于秋天速度的沉浸式网页演示。">
+<title>秋天的旅行 · 同一个秋天，三种不同的风景</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23110f0c'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='36' fill='%23d8a13f'%3E秋%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="type/noto-serif.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="is-booting" data-tone="dark" data-chapter="序">
+
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <h1 class="loader__title">秋天的旅行</h1>
+    <div class="loader__line"><span id="loadFill"></span></div>
+  </div>
+</div>
+
+<main class="deck" id="deck" aria-label="秋天的旅行，网页演示"></main>
+
+<canvas class="ambient" id="ambient" aria-hidden="true"></canvas>
+<div class="veil" id="veil" aria-hidden="true"></div>
+
+<div class="progress" aria-hidden="true"><span id="progressFill"></span></div>
+
+<footer class="hud">
+  <div class="chapter-dots" id="chapterDots" aria-label="章节"></div>
+  <div class="hud__controls">
+    <button class="icon-btn" type="button" data-action="overview" aria-label="目录" title="目录 (G)">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+    </button>
+    <button class="icon-btn" type="button" data-action="help" aria-label="操作与图片授权" title="操作 (?)">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.4a2.5 2.5 0 1 1 3.4 2.3c-.7.3-1 .8-1 1.5v.4"/><circle cx="12" cy="17" r=".7" fill="currentColor" stroke="none"/></svg>
+    </button>
+    <button class="icon-btn" type="button" data-action="fullscreen" aria-label="全屏" title="全屏 (F)">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M21 16v5h-5M3 16v5h5"/></svg>
+    </button>
+    <span class="hud__line"></span>
+    <button class="icon-btn icon-btn--arrow" type="button" data-action="prev" aria-label="上一页" title="上一页 (←)">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4l-8 8 8 8"/></svg>
+    </button>
+    <button class="icon-btn icon-btn--arrow" type="button" data-action="next" aria-label="下一页" title="下一页 (→)">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4l8 8-8 8"/></svg>
+    </button>
+  </div>
+</footer>
+
+<button class="edge edge--prev" type="button" data-action="prev" aria-label="上一页" tabindex="-1">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4l-8 8 8 8"/></svg>
+</button>
+<button class="edge edge--next" type="button" data-action="next" aria-label="下一页" tabindex="-1">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4l8 8-8 8"/></svg>
+</button>
+
+<div class="overlay overlay--overview" id="overview" role="dialog" aria-modal="true" aria-labelledby="overviewTitle" hidden>
+  <div class="overlay__inner">
+    <header class="overlay__head">
+      <h2 class="overlay__title" id="overviewTitle">目录</h2>
+      <button class="overlay__close" type="button" data-action="close" aria-label="关闭目录">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>
+      </button>
+    </header>
+    <div class="overview__grid" id="overviewGrid"></div>
+  </div>
+</div>
+
+<div class="overlay overlay--help" id="help" role="dialog" aria-modal="true" aria-labelledby="helpTitle" hidden>
+  <div class="overlay__inner overlay__inner--help">
+    <header class="overlay__head">
+      <h2 class="overlay__title" id="helpTitle">观看方式</h2>
+      <button class="overlay__close" type="button" data-action="close" aria-label="关闭">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>
+      </button>
+    </header>
+    <div class="help__tabs" role="tablist">
+      <button class="help__tab is-active" type="button" role="tab" aria-selected="true" data-tab="keys">操作</button>
+      <button class="help__tab" type="button" role="tab" aria-selected="false" data-tab="credits">图片授权</button>
+    </div>
+    <div class="help__panel is-active" id="helpKeys" role="tabpanel">
+      <div class="help__grid">
+        <div class="help__group">
+          <div class="key-row"><span class="keys"><kbd>→</kbd><kbd>↓</kbd><kbd>Space</kbd></span><span>下一页</span></div>
+          <div class="key-row"><span class="keys"><kbd>←</kbd><kbd>↑</kbd></span><span>上一页</span></div>
+          <div class="key-row"><span class="keys"><kbd>Home</kbd><kbd>End</kbd></span><span>第一页 / 最后一页</span></div>
+          <div class="key-row"><span class="keys"><kbd>滚轮</kbd><kbd>滑动</kbd></span><span>翻页</span></div>
+        </div>
+        <div class="help__group">
+          <div class="key-row"><span class="keys"><kbd>G</kbd></span><span>目录</span></div>
+          <div class="key-row"><span class="keys"><kbd>F</kbd></span><span>全屏</span></div>
+          <div class="key-row"><span class="keys"><kbd>R</kbd></span><span>重新开始</span></div>
+          <div class="key-row"><span class="keys"><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd></span><span>互动选择</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="help__panel" id="helpCredits" role="tabpanel" hidden>
+      <p class="help__intro">摄影来自 Wikimedia Commons，遵循各自授权协议。图片经过裁切与调色以适应版面。</p>
+      <div class="credits" id="creditsList"></div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<noscript><div class="noscript">这是一份需要 JavaScript 的网页演示。请启用 JavaScript 后重新打开。</div></noscript>
+
+<script src="js/content.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

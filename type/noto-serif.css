@@ -1,0 +1,8 @@
+/* Subsetted Noto Serif SC covering this deck's glyphs. */
+@font-face {
+  font-family: "Noto Serif SC Deck";
+  src: url("./noto-serif-sc-300.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
