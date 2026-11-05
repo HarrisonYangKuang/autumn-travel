@@ -258,5 +258,23 @@
   ],
   "file_webp_bytes": 316592,
   "file_jpg_bytes": 560963
+ },
+ {
+  "id": "hong-kong-harbour",
+  "title": "Hong Kong Sunset Color.jpg",
+  "artist": "Wilfredor",
+  "license": "CC0 1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Sunset_Color.jpg",
+  "credit_line": "摄影：Wilfredor / CC0 1.0 / Wikimedia Commons；缩小，放映时裁切。"
+ },
+ {
+  "id": "birch-autumn",
+  "title": "Autumn Birch Forest (129068501).jpeg",
+  "artist": "Valery Kraynov",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Autumn_Birch_Forest_(129068501).jpeg",
+  "credit_line": "摄影：Valery Kraynov / CC BY 3.0 / Wikimedia Commons；缩小，放映时裁切；作为白桦秋色示意，未认定为黑龙江实拍。"
  }
 ]

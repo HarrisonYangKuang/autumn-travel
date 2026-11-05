@@ -1,6 +1,4 @@
-/* ==========================================================================
-   秋天的旅行 · 内容（v5：黑龙江 → 西安 → 台湾）
-   ========================================================================== */
+/* 秋天的旅行 · 黑龙江 → 西安 → 台湾 → 香港 */
 (function () {
   "use strict";
   const slides = [
@@ -12,7 +10,7 @@
     "title": "秋天的旅行",
     "lines": [
       "同一个秋天，",
-      "三种不同的风景。"
+      "四种不同的风景。"
     ],
     "imageKey": "heilongjiang-chapter",
     "alt": "大兴安岭的林海与河湾，落日把落叶松照成金色。"
@@ -23,21 +21,24 @@
     "type": "thesis",
     "chapter": "序",
     "title": "秋天是一种速度",
-    "body": "同一个九月，黑龙江先黄，西安正在落，台湾还在等风。秋天从北往南走，一共三个月。",
+    "body": "从北方的林海，到西安的城墙，再到台湾的茶山与香港的海港。秋天在不同地方，走出不同的节奏。",
     "lines": [
       "黑龙江",
       "西安",
-      "台湾"
+      "台湾",
+      "香港"
     ],
     "imageKeys": [
-      "heilongjiang-birch",
+      "birch-autumn",
       "xian-ginkgo",
-      "taiwan-silver-grass"
+      "taiwan-silver-grass",
+      "hong-kong-harbour"
     ],
     "alt": [
-      "白桦林里发白的树干，叶子还没有落尽。",
+      "白色树干与金黄叶片交织的白桦秋色示意。",
       "城墙边的银杏，叶子黄到透光。",
-      "台湾山脊上成片泛白的芒花。"
+      "台湾山脊上成片泛白的芒花。",
+      "香港维多利亚港的日落，远处是大屿山。"
     ]
   },
   {
@@ -45,7 +46,7 @@
     "id": "guess-order",
     "type": "guess",
     "chapter": "序",
-    "title": "谁先入秋？",
+    "title": "这三个地方，谁先入秋？",
     "imageKey": "heilongjiang-late-autumn",
     "alt": "大兴安岭的落叶松林，在最后一层光里变成金色。",
     "choices": [
@@ -59,7 +60,7 @@
       },
       {
         "label": "黑龙江",
-        "line": "对。九月最后一周，白桦先黄。",
+        "line": "对。北方林区往往更早显出秋色。",
         "correct": true
       }
     ],
@@ -77,7 +78,7 @@
         "place": "台湾"
       }
     ],
-    "why": "黑龙江在北纬 48°。纬度越高，太阳高度角越低、白昼越短，西伯利亚的冷空气也先到这里。所以九月最后一周，白桦先黄。"
+    "why": "黑龙江地处我国东北部，入秋后降温较早。纬度、海拔和当年的天气共同影响叶色；图中的月份是观景参考，不是固定的入秋日期。"
   },
   {
     "n": 4,
@@ -89,7 +90,7 @@
       "黑龙江"
     ],
     "title": "秋是短暂的",
-    "body": "大兴安岭的秋天，从白桦林开始，到第一场雪结束。九月最后一周是黄金期；林区铁路一天一班；雪乡的初雪，通常在十月中。",
+    "body": "大兴安岭的秋天，从层层变色的树林开始。九月前后，白桦与落叶松渐渐染黄；天气一冷，秋色就会加快脚步。想追上最好的颜色，要看当年的天气。",
     "imageKey": "heilongjiang-late-autumn",
     "alt": "大兴安岭的落叶松林，在最后一层光里变成金色。"
   },
@@ -98,12 +99,12 @@
     "id": "heilongjiang-birch",
     "type": "hero",
     "chapter": "黑龙江",
-    "title": "白桦只黄七天",
-    "body": "九月的最后一周，白桦从绿到黄只用七天。风一过，叶子落得很快，林子里全是纸的声音。早上出门要穿两件，中午又得脱。地上铺满以后，树就只剩骨头。",
-    "imageKey": "heilongjiang-birch",
-    "alt": "白桦林里发白的树干，叶子还没有落尽。",
+    "title": "白桦把秋天照亮",
+    "body": "秋色到来时，金黄的叶子映着发白的树干。风一过，林子里像有翻纸的声音。叶色会随地点和气温改变，最浓的一刻，需要赶上，也需要运气。",
+    "imageKey": "birch-autumn",
+    "alt": "金黄叶片与白色树干组成的白桦秋景示意，非大兴安岭实拍。",
     "scene": {
-      "place": "大兴安岭 · 白桦林"
+      "place": "白桦秋色 · 示意"
     }
   },
   {
@@ -112,11 +113,11 @@
     "type": "split",
     "chapter": "黑龙江",
     "title": "林区的时间",
-    "body": "林区的小火车一天一班，开得比走路还慢，窗户可以推开。河面早上结一层薄冰，中午又化了。司机在桥上停一会儿，让一群牛先过。",
+    "body": "铁轨把江水和树林连在一起。坐在窗边，看河面从树影之间露出来，路程就有了另一种节奏。秋天不只在目的地，也在经过的风景里。",
     "imageKey": "heilongjiang-railway",
     "alt": "一列火车驶过松花江上的铁桥，江面很宽。",
     "scene": {
-      "place": "松花江 · 林区铁路"
+      "place": "松花江 · 铁路意象"
     }
   },
   {
@@ -139,7 +140,7 @@
       "雪是夜里来的，没有声音。"
     ],
     "scene": {
-      "place": "雪乡 · 第一场雪"
+      "place": "林间初雪 · 示意"
     },
     "autoLabel": "看它入冬"
   },
@@ -148,14 +149,14 @@
     "id": "quiz-heilongjiang",
     "type": "quiz",
     "chapter": "黑龙江",
-    "question": "黑龙江的白桦，黄起来只要多久？",
+    "question": "追白桦秋色，最该留意什么？",
     "options": [
-      "30 天",
-      "7 天",
-      "3 个月"
+      "固定七天，年年相同",
+      "当地叶色与近期天气",
+      "只看日历，不看地点"
     ],
     "correct": 1,
-    "explain": "黑龙江在北纬 48°。白桦对日照和温度最敏感；九月最后一周，白天骤短，夜里接近零度，叶绿素退得很快，整片林子七天就黄。"
+    "explain": "秋色受地点、气温和当年天气影响，没有统一的“只黄七天”。出发前看当地近期照片与预报，比记住一个固定日期更可靠。"
   },
   {
     "n": 9,
@@ -176,12 +177,12 @@
     "id": "xian-ginkgo",
     "type": "hero",
     "chapter": "西安",
-    "title": "城墙上的银杏",
-    "body": "城墙有十二米高，砖缝里长着草，也存着去年的叶子。银杏黄的时候，风把叶子吹上城头，落在走道中间，扫地的工人一天扫三遍。",
+    "title": "城墙边的秋色",
+    "body": "城墙高约十二米，砖缝里长着草。秋色浓起来时，去城头看远处的树，也去树下捡一片落叶。金黄映着旧砖，让这个季节多了一层时间的颜色。",
     "imageKey": "xian-ginkgo",
-    "alt": "城墙边的银杏，叶子黄到透光。",
+    "alt": "逆光中的金黄银杏叶，用作秋色示意，非城墙实拍。",
     "scene": {
-      "place": "西安城墙 · 银杏"
+      "place": "银杏秋色 · 示意"
     }
   },
   {
@@ -209,7 +210,7 @@
       "12 米"
     ],
     "correct": 2,
-    "explain": "西安城墙高 12 米，顶宽 12–14 米，走一圈约 13.7 公里，要一个多小时。城墙挡风，城里比城外暖，银杏能多挂几天。"
+    "explain": "西安城墙高约12米，顶宽12—14米，周长约13.74公里。按每小时5公里估算，步行一圈约需2.7小时；加上拍照和停留，应留出更多时间。"
   },
   {
     "n": 13,
@@ -221,7 +222,7 @@
       "台湾"
     ],
     "title": "秋是缓慢的",
-    "body": "台湾的秋天来得晚。十一月，阳明山的芒花先白；一月，落羽松才红；茶山的雾，整个冬天都在。这里的秋天不赶路，它只是慢慢经过。",
+    "body": "台湾的秋意慢慢显出来。秋天，阳明山的芒花先白；到了秋冬之交，一些地方的落羽松渐渐转色。茶山的雾，又把脚步留住。这里的秋天不赶路，它只是慢慢经过。",
     "imageKey": "taiwan-chapter",
     "alt": "清水断崖下的太平洋，山壁一直落到海里。"
   },
@@ -244,11 +245,11 @@
     "type": "split",
     "chapter": "台湾",
     "title": "落羽松还没有红",
-    "body": "北边的树已经在掉叶子，这里的落羽松还是绿的。它慢半拍，要等到一月才肯变红，那时别处已经在过冬天。水边的膝根从浅水里冒出来，像一排没人坐的凳子。",
+    "body": "北边的树已经落叶，这里的落羽松却还在慢慢换色。不同地点和气温，让绿、黄、红褐色先后出现；不少景点的观赏期跨过十二月和翌年一月。水边冒出的气根，像一排没人坐的凳子。",
     "imageKey": "taiwan-bald-cypress",
-    "alt": "落羽松的膝根从草里冒出来，像一排没人坐的凳子。",
+    "alt": "植物园内落羽松的气根示意，非台湾景点实拍。",
     "scene": {
-      "place": "落羽松 · 水边"
+      "place": "落羽松 · 气根示意"
     }
   },
   {
@@ -265,7 +266,7 @@
     "imageKey": "taiwan-tea-mist",
     "alt": "台湾山里的茶园，雾气正在散开。",
     "scene": {
-      "place": "阿里山 · 茶山雾"
+      "place": "台湾 · 茶山雾"
     }
   },
   {
@@ -273,17 +274,31 @@
     "id": "quiz-taiwan",
     "type": "quiz",
     "chapter": "台湾",
-    "question": "台湾的落羽松，通常几月才红？",
+    "question": "落羽松的秋冬色彩，何时值得留意？",
     "options": [
-      "十月",
-      "一月",
-      "十一月"
+      "每年固定十月一天",
+      "常见于十二月至翌年一月",
+      "全台同一天变红"
     ],
     "correct": 1,
-    "explain": "落羽松原产北美，喜欢温暖。台湾要等到一月，日照变短、气温够低，针叶才转红。它比北方的秋天慢半拍。"
+    "explain": "以桃园南兴落羽松为例，官方观光资料给出的最佳观赏期约为十二月中至一月底。其他地点和年份会随气温变化，出发前应查看当地近期叶况。"
   },
   {
-    "n": 18,
+    "id": "chapter-hong-kong",
+    "type": "chapter",
+    "chapter": "香港",
+    "lines": [
+      "04",
+      "香港"
+    ],
+    "title": "秋是清爽的",
+    "body": "风从维多利亚港吹过，高楼背后，山路通向海。白天去山上看城市，傍晚回到海边等灯亮。香港的秋天，可以在热闹与安静之间，走得很近。",
+    "imageKey": "hong-kong-harbour",
+    "alt": "香港维多利亚港日落，远眺大屿山。",
+    "n": 18
+  },
+  {
+    "n": 19,
     "id": "vote",
     "type": "vote",
     "chapter": "尾声",
@@ -291,9 +306,9 @@
     "choices": [
       {
         "label": "黑龙江",
-        "line": "去赶九月最后一周的白桦。",
-        "imageKey": "heilongjiang-birch",
-        "alt": "白桦林里发白的树干。"
+        "line": "去赶一场林间的秋色。",
+        "imageKey": "birch-autumn",
+        "alt": "金黄色的白桦秋色示意。"
       },
       {
         "label": "西安",
@@ -306,11 +321,17 @@
         "line": "去等一场茶山雾。",
         "imageKey": "taiwan-tea-mist",
         "alt": "台湾山里的茶园。"
+      },
+      {
+        "label": "香港",
+        "line": "去山上看城市，回海边等灯亮。",
+        "imageKey": "hong-kong-harbour",
+        "alt": "香港维多利亚港日落，远眺大屿山。"
       }
     ]
   },
   {
-    "n": 19,
+    "n": 20,
     "id": "ticket",
     "type": "ticket",
     "chapter": "尾声",
@@ -318,21 +339,21 @@
     "variants": [
       {
         "place": "黑龙江",
-        "to": "哈尔滨",
+        "to": "漠河",
         "date": "09.24",
         "dateLabel": "九月最后一周",
         "flight": "秋航 01",
         "gate": "03",
         "seat": "窗边",
-        "body": "从哈尔滨往北，先看白桦，再坐一趟慢火车，最后去雪乡等第一场雪。",
+        "body": "以漠河为起点，去附近的林间追一场秋色，再到江边看水。把时间留给沿途，行程随当年的叶色调整。",
         "days": [
-          "DAY 1 哈尔滨",
-          "DAY 2 林区铁路",
-          "DAY 3 雪乡"
+          "DAY 1 抵达漠河",
+          "DAY 2 周边白桦秋色",
+          "DAY 3 周边江湾与返程"
         ],
         "imageKey": "heilongjiang-chapter",
         "alt": "大兴安岭的林海与河湾，落日把落叶松照成金色。",
-        "tagline": "去追一场只有七天的黄"
+        "tagline": "去赶一场林间的秋色"
       },
       {
         "place": "西安",
@@ -360,20 +381,38 @@
         "flight": "秋航 03",
         "gate": "12",
         "seat": "窗边",
-        "body": "从台北上山，先看芒花，再去茶山等雾，最后在水边看落羽松慢半拍地红。",
+        "body": "这次留在台北周边：上阳明山看芒花，回城里散步，再去河岸走一走。茶山雾与落羽松，是留给另一次秋冬旅行的愿望。",
         "days": [
           "DAY 1 阳明山",
-          "DAY 2 阿里山",
-          "DAY 3 落羽松"
+          "DAY 2 台北街巷",
+          "DAY 3 河岸散步"
         ],
         "imageKey": "taiwan-chapter",
         "alt": "清水断崖下的太平洋，山壁一直落到海里。",
-        "tagline": "去等一场不会散的雾"
+        "tagline": "去等山风，也去慢慢散步"
+      },
+      {
+        "place": "香港",
+        "to": "香港",
+        "date": "11.20",
+        "dateLabel": "十一月",
+        "flight": "秋航 04",
+        "gate": "16",
+        "seat": "窗边",
+        "body": "白天去太平山看城市，傍晚回到维港海边。留一天走街巷，留一天看山海，慢慢过一个秋日周末。",
+        "days": [
+          "DAY 1 太平山",
+          "DAY 2 维港与街巷",
+          "DAY 3 海边散步"
+        ],
+        "imageKey": "hong-kong-harbour",
+        "alt": "香港维多利亚港日落，远眺大屿山。",
+        "tagline": "去山上看城市，回海边等灯亮"
       }
     ]
   },
   {
-    "n": 20,
+    "n": 21,
     "id": "end",
     "type": "end",
     "chapter": "尾声",
@@ -391,6 +430,10 @@
       {
         "month": "11",
         "place": "台湾"
+      },
+      {
+        "month": "11",
+        "place": "香港"
       }
     ],
     "imageKey": "heilongjiang-railway",
@@ -462,6 +505,14 @@
     "src": "assets/images/xian-persimmon.webp",
     "fallback": "assets/images/xian-persimmon.jpg",
     "lqip": "data:image/webp;base64,UklGRh4BAABXRUJQVlA4IBIBAACwBgCdASoaACAAPvVurVGqpiQiqAqpUB6JagCxHvU1RrBrTelloBGnGCd+Rw6M19cwprY35EVQmGHADYuAAAD+207GObFTc+mKzOfKvCY+bWeTeUc5HvnpLFRyYnJhJmGU5xQfbWtuazmSlC2S+HL4M83h99GqynzHnSgGReoh0fbeWcP2ObYOT/YV6Es6f0Nq2T3/2r1GKa9MBoDMiahNrlfF6oU4Y1Nv7uSMWPE35ZJFrMcISu25MR8QkX2xT70XO+DlgGmDckUik6e/k2vbpIDZggrwJb3ZBRnonlUiAzXhncS7IMGcgDw2tDdDTgZImeyqT7YaInR62jwr3EBGL1tTMF+YeDwhMERW/JsaAAAA"
+  },
+  "hong-kong-harbour": {
+    "src": "assets/images/hong-kong-harbour.webp",
+    "fallback": "assets/images/hong-kong-harbour.jpg"
+  },
+  "birch-autumn": {
+    "src": "assets/images/birch-autumn.webp",
+    "fallback": "assets/images/birch-autumn.jpg"
   }
 };
   const credits = [
@@ -724,12 +775,25 @@
     ],
     "file_webp_bytes": 316592,
     "file_jpg_bytes": 560963
+  },
+  {
+    "id": "hong-kong-harbour",
+    "title": "Hong Kong Sunset Color.jpg",
+    "artist": "Wilfredor",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Sunset_Color.jpg",
+    "credit_line": "摄影：Wilfredor / CC0 1.0 / Wikimedia Commons；缩小，放映时裁切。"
+  },
+  {
+    "id": "birch-autumn",
+    "title": "Autumn Birch Forest (129068501).jpeg",
+    "artist": "Valery Kraynov",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Autumn_Birch_Forest_(129068501).jpeg",
+    "credit_line": "摄影：Valery Kraynov / CC BY 3.0 / Wikimedia Commons；缩小，放映时裁切；作为白桦秋色示意，未认定为黑龙江实拍。"
   }
 ];
-  window.DECK = {
-    meta: { title: "秋天的旅行", subtitle: "同一个秋天，三种不同的风景。" },
-    slides: slides,
-    images: images,
-    credits: credits
-  };
+  window.DECK = {meta: {"title":"秋天的旅行","subtitle":"同一个秋天，四种不同的风景。"}, slides, images, credits};
 })();

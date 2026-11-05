@@ -18,6 +18,7 @@
   const ACCENT = {
     "序": "#d2a04a",
     "台湾": "#8aa28b",
+    "香港": "#8fa6b5",
     "黑龙江": "#d2a04a",
     "西安": "#b77a45",
     "尾声": "#d2a04a"
@@ -227,8 +228,8 @@
               <p class="ticket__body">${esc(v.body)}</p>
               <div class="ticket__days">${(v.days || []).map((d) => `<span>${esc(d)}</span>`).join("")}</div>
               <div class="ticket__actions">
-                <button type="button" data-goto="17">换一张</button>
-                <button type="button" data-goto="19">出发</button>
+                <button type="button" data-goto="${slides.findIndex(x => x.id === "vote")}">换一张</button>
+                <button type="button" data-goto="${slides.findIndex(x => x.id === "end")}">出发</button>
               </div>
             </div>
             <div class="ticket__barcode" aria-hidden="true"></div>
@@ -1169,7 +1170,7 @@
     if (/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName)) return;
 
     const type = slides[current].type;
-    if ((type === "guess" || type === "quiz" || type === "vote") && /^[1-3]$/.test(key)) {
+    if ((type === "guess" || type === "quiz" || type === "vote") && /^[1-9]$/.test(key) && Number(key) <= (slides[current].choices || slides[current].options).length) {
       event.preventDefault();
       if (type === "guess") selectGuess(Number(key) - 1);
       else if (type === "quiz") selectQuiz(Number(key) - 1);
